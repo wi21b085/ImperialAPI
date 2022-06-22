@@ -14,4 +14,9 @@ public class ImperialAPIController {
     public double cm(@RequestParam double inch){
         return api.cm(inch);
     }
+
+    @RequestMapping("/meter")
+    public double m(@RequestParam double yard){
+        return api.m(yard);
+    }
 }

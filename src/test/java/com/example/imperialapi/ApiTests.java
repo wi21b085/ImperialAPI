@@ -15,4 +15,13 @@ public class ApiTests {
 
         assertEquals(expRes, res);
     }
+
+    @Test
+    void mTest(){
+        double yard = 5;
+        double expRes = 4.570383912248628;
+        double res = api.m(yard);
+
+        assertEquals(expRes, res);
+    }
 }
